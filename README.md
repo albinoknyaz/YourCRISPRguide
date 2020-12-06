@@ -1,5 +1,5 @@
 # YourCRISPRguide
-YourCRIPSRguide is a web-tool (in progress) developed for a new type II protein RbCpf1 and its PAM TTKGT. 
+YourCRIPSRguide is a web-tool in progress developed for a new type II protein RbCpf1 and its PAM TTKGT. 
 
 It is based on a trustworthy tool - on [CRISPOR](http://crispor.org) - as it has multiple features and high reliability (and includes DeepCpf data), so yourCRISPRguide uses its approach, but adds an opportunity to search for sgRNA for RbCpf1 and to predict the score for each of them. As RbCpf1 PAM is less extensively represented in the genomes ([see the notebook for the info about PAM_requency function](https://github.com/albinoknyaz/YourCRISPRguide/blob/frequency/frequency)) that the 'classical' PAMs, RbCpf1 might be a more precise nuclease for different types ofexperiments. Thus, the demand for sgRNA design or this protein is quite high. 
 
