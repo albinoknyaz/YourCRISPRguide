@@ -10,7 +10,7 @@ It is based on a trustworthy tool - on [CRISPOR](http://crispor.org) - as it has
 - calculate the scores for each of the found sgRNAs (for RbCpf1) 
 - range the sgRNA sequences according to the score (for RbCpf1) 
 
-Even though our first priority was to fulfil all the criteria for RbCpf1, we will add multiple advanced features very soon (see notebook [development](development.ipynb). 
+Even though our first priority was to fulfil all the criteria for RbCpf1, we will add multiple advanced features very soon (see notebook [development](development.ipynb) ). 
 These features will include: 
 - secondary gRNA structures prediction (it might result in poor cleavage efficiency, see the [article](https://academic.oup.com/nar/article/48/6/3228/5716457) for details)
 Readiness: ready to be used in linear model. 
