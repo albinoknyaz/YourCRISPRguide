@@ -13,7 +13,7 @@ It is based on a trustworthy tool - on [CRISPOR](http://crispor.org) - as it has
 Even though our first priority was to fulfil all the criteria for RbCpf1, we will add multiple advanced features very soon (see notebook [development](development.ipynb) ). 
 These features will include: 
 - secondary gRNA structures prediction (it might result in poor cleavage efficiency, see the [article](https://academic.oup.com/nar/article/48/6/3228/5716457) for details)
-Readiness: ready to be used in linear model. 
+Readiness: ready to be used in linear model. [RNAFold](http://rna.tbi.univie.ac.at/cgi-bin/RNAWebSuite/RNAfold.cgi) was applied. 
 - gRNA length variation ([article](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6538514/)) 
 - off-target effects prognosis for the phenotype (uses data from several databases of mutations) (this can be useful if there are several sequence candidates that have a small off-target effect and you need to choose more relevant at the phenotype level)
 - the effect of a mismatch in dependence of the distance from PAM region ([article](https://www.pnas.org/content/pnas/early/2020/05/05/1918685117.full.pdf) ( the effect of a mismatch in dependence of the distance from PAM region )) 
