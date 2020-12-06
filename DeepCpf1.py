@@ -66,8 +66,6 @@ def run_on_seq(sequences, chromatin_acessibilities=None):
     Seq_deepCpf1_SCORE = Seq_deepCpf1.predict([SEQ], batch_size=50, verbose=0)
     DeepCpf1_SCORE = DeepCpf1.predict([SEQ, CA], batch_size=50, verbose=0) * 3
 
-    Seq_deepCpf1_SCORE = Seq_deepCpf1_SCORE[0, 0]
-    DeepCpf1_SCORE = DeepCpf1_SCORE[0, 0]
 
     return Seq_deepCpf1_SCORE, DeepCpf1_SCORE
 
